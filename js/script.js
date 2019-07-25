@@ -20,3 +20,15 @@ $("#menu-toggle").click(function(e) {
  		}
  	});
  }
+
+ //switch mode background
+ $(".mode-switcher-light").click(function(){
+  $("body").removeClass("dark-mode");
+  $("body").addClass("light-mode");
+});
+
+$(".mode-switcher-dark").click(function(){
+  $("body").removeClass("light-mode");
+  $("body").addClass("dark-mode");
+});
+
