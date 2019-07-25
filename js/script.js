@@ -32,3 +32,13 @@ $(".mode-switcher-dark").click(function(){
   $("body").addClass("dark-mode");
 });
 
+//search
+function search() {
+  var x = document.getElementById("boxSearch");
+   if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+

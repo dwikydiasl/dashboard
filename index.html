@@ -34,7 +34,7 @@
 			</div>
 			<ul class="sidebar-nav">
 				
-				<li>
+				<li class="active">
 					<a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
 				</li>
 				<li>
@@ -70,7 +70,7 @@
 		<!-- /#sidebar-wrapper -->
 
 		<!-- Page Content -->
-		<div id="page-content-wrapper">
+		<div id="page-content-wrapper">			
 			<div id="headar">
 				<div class="d-flex bd-highlight mb-3">
 					<div class="mr-auto p-2 bd-highlight">
@@ -80,6 +80,9 @@
 					</div>
 					<div class="p-2 bd-highlight">
 						<ul class="notification">
+							<li>
+								<a ><i class="fas fa-search" onclick="search()"></i></a>
+							</li>
 							<li>
 								<a href=""><i class="fas fa-bell"></i></a>
 							</li>
@@ -101,6 +104,9 @@
 						</ul>
 					</div>
 				</div>
+			</div>
+			<div id="boxSearch">
+				<input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="search">
 			</div>
 			
 			<div class="container-fluid">
