@@ -29,8 +29,8 @@
 
 		<!-- Sidebar -->
 		<div id="sidebar-wrapper">
-			<div class="sidebar-brand border-bottom mb-4">
-					<h3 class="pt-2 pb-1"><i class="fas fa-code"></i> Brand</h3>
+			<div class="sidebar-brand  mb-4">
+					<h3><i class="fas fa-code"></i> Brand</h3>
 			</div>
 			<ul class="sidebar-nav">
 				
@@ -62,7 +62,7 @@
 
 		<!-- Page Content -->
 		<div id="page-content-wrapper">
-			<div class="container-fluid">
+			<div id="headar">
 				<div class="d-flex bd-highlight mb-3">
 					<div class="mr-auto p-2 bd-highlight">
 						<a href="#menu-toggle" id="menu-toggle">
@@ -78,11 +78,24 @@
 								<a href=""><i class="fas fa-envelope"></i></a>
 							</li>
 							<li>
-								<a href=""><i class="fas fa-user"></i> Admin</a>
+								<div class="dropdown">
+									<a href="" class="dropbtn">
+										<img src="assets/img/profil.jpg" class="avatar"> John Dae
+									</a>
+									<div class="dropdown-content-hover">
+										<a href="#">
+											<i class="fas fa-sign-out-alt"></i> Logout
+										</a>
+									</div>
+								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
+			</div>
+			
+			<div class="container-fluid">
+				
 				<div class="row">
 					<div class="col-lg-12">
 						<p class="mt-4">
