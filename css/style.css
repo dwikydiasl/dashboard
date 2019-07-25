@@ -144,6 +144,10 @@ body{
   height: 30px;
   width: 30px;
   border-radius: 100px;
+  cursor: pointer;
+}
+.name-login{
+  color: #fff;
 }
 #boxSearch {
   width: 100%;
@@ -307,10 +311,14 @@ body{
 }
 /*Responsive*/
 @media (min-width: 120px) and (max-width: 320px) {
-   
+  .name-login{
+    display: none;
+  }
 }
 @media (min-width: 321px) and (max-width: 576px) {
-   
+   .name-login{
+    display: none;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   
