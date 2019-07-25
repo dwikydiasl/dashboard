@@ -148,6 +148,7 @@ body{
 }
 .name-login{
   color: #fff;
+  cursor: pointer;
 }
 #boxSearch {
   width: 100%;
@@ -214,6 +215,9 @@ body{
 .teal{
   color: #80CBC4;
 }
+.white{
+  color: #fff;
+}
 
 /*-- switch mode background --*/
 .light-mode {
@@ -266,7 +270,7 @@ body{
   color: #111111;
 }
 
-/*-- Conten --*/
+/*--Page Conten --*/
 .conten-dashboard{
   padding-top: 20px;
 }
@@ -281,8 +285,28 @@ body{
   background-color: #333D3F;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.9);
 }
-
-
+.logo-user{
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 100px;
+}
+.list-user{
+  border-bottom: 1px solid #263238;
+}
+.footer{
+  padding-top: 17px;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 0;
+  height: 50px;
+  bottom: 0;
+}
+.footer p{
+  font-size: 12px;
+}
+.footer span{
+  color: #bdbdbd;
+}
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
