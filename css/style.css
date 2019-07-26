@@ -83,9 +83,7 @@ body{
 }
 
 #page-content-wrapper {
-    width: 100%;
     position: absolute;
-    height: 100vh;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -229,27 +227,33 @@ body{
   background: #263238;
   color: #ddd;
 }
-.mode-switcher .btn.mode-switcher-light {
+.btn.mode-switcher-light {
   background: #fff;
   border: 1px solid #000;
   color: #000;
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
 }
 
-.mode-switcher .btn.mode-switcher-dark {
+.btn.mode-switcher-dark {
   background: #111;
   border: 1px solid #000;
   color: #fff;
+   height: 35px;
+  width: 35px;
+  border-radius: 100px;
 }
-.dark-mode .mode-switcher .mode-switcher-light {
+.dark-mode .mode-switcher-light {
   background-color: #fff;
   border: 1px solid #fff;
   color: #000;
 }
 
-.dark-mode .mode-switcher .mode-switcher-dark {
+.dark-mode .mode-switcher-dark {
   background-color: #111;
   border: 1px solid #fff;
-  color: #fff;
+  color: #111;
 }
 .switch-mode{
   position: fixed;
@@ -258,18 +262,19 @@ body{
   margin-bottom: 30px;
   margin-right: 25px;
 }
-.mode-switcher li{
-  display: inline-block;
-  list-style: none;
+.fa-lightbulb{
+  color: #FFFF00;
 }
 .icon-mode{
-  max-width: 25px;
-  max-height: 25px;
+  font-size: 24px;
+  text-align: center;
 }
 .fa-cloud-sun{
   color: #111111;
 }
-
+.fa-adjust{
+  font-size: 24px;
+}
 /*--Page Conten --*/
 .conten-dashboard{
   padding-top: 20px;
@@ -307,6 +312,53 @@ body{
 .footer span{
   color: #bdbdbd;
 }
+
+
+/*--Droup btn--*/
+.dropbtn-up {
+  background-color: #263238;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.9);
+}
+.fab{
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+}
+.dropup {
+  position: relative;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  padding-right: 13px;
+  padding-bottom: 10px;
+  z-index: 1;
+  right: 0;
+}
+
+.dropup-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn-up {
+  background-color: #2980B9;
+}
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
@@ -332,28 +384,30 @@ body{
         position: relative;
         margin-right: 0;
     }
+
 }
 /*Responsive*/
 @media (min-width: 120px) and (max-width: 320px) {
   .name-login{
     display: none;
   }
+ 
 }
 @media (min-width: 321px) and (max-width: 576px) {
    .name-login{
     display: none;
   }
-}
-@media (min-width: 576px) and (max-width: 768px) {
   
 }
-
-@media (min-width: 768px) and (max-width: 992px) {
-   
+@media (min-width: 576px) and (max-width: 768px) {
+ 
 }
 
+@media (min-width: 768px) and (max-width: 992px) {   
+   
+
 @media (min-width: 992px) and (max-width: 999px) {
-    
+  
 }
 @media (min-width: 999px) and (max-width: 1200px) {
    
