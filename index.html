@@ -24,14 +24,53 @@
 
 </head>
 <body>
+	<div id="headar">
+		<div class="d-flex bd-highlight mb-3">
+			<div class="mr-auto p-2 bd-highlight">
+				<div class="sidebar-brand  mb-4">
+					<h3><i class="fas fa-code"></i> Brand</h3>
+				</div>
+				<a href="#menu-toggle" id="menu-toggle" class="menu-hide">
+					<i class="fas fa-stream"></i>
+				</a>
+			</div>
+			<div class="p-2 bd-highlight">
+				<ul class="notification">
+					<li>
+						<a ><i class="fas fa-search" onclick="search()"></i></a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-bell"></i> <span class="badge badge-secondary">5</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fas fa-comments"></i> <span class="badge badge-secondary">10</span>
+						</a>
+					</li>
+					<li>
+						<div class="dropdown">
+							<a class="dropbtn">
+								<img src="assets/img/profil.jpg" class="avatar"> <span class="name-login">John Dae</span>
+							</a>
+							<div class="dropdown-content-hover">
+								<a href="#">
+									<i class="fas fa-sign-out-alt"></i> Logout
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
 	<div id="wrapper">
 
 		<!-- Sidebar -->
 		<div id="sidebar-wrapper">
-			<div class="sidebar-brand  mb-4">
-					<h3><i class="fas fa-code"></i> Brand</h3>
-			</div>
+
 			<ul class="sidebar-nav">
 				
 				<li class="active">
@@ -70,45 +109,7 @@
 		<!-- /#sidebar-wrapper -->
 
 		<!-- Page Content -->
-		<div id="page-content-wrapper">			
-			<div id="headar" class="">
-				<div class="d-flex bd-highlight mb-3">
-					<div class="mr-auto p-2 bd-highlight">
-						<a href="#menu-toggle" id="menu-toggle">
-							<i class="fas fa-stream"></i>
-						</a>
-					</div>
-					<div class="p-2 bd-highlight">
-						<ul class="notification">
-							<li>
-								<a ><i class="fas fa-search" onclick="search()"></i></a>
-							</li>
-							<li>
-								<a href="">
-									<i class="fas fa-bell"></i> <span class="badge badge-secondary">5</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i class="fas fa-comments"></i> <span class="badge badge-secondary">10</span>
-								</a>
-							</li>
-							<li>
-								<div class="dropdown">
-									<a class="dropbtn">
-										<img src="assets/img/profil.jpg" class="avatar"> <span class="name-login">John Dae</span>
-									</a>
-									<div class="dropdown-content-hover">
-										<a href="#">
-											<i class="fas fa-sign-out-alt"></i> Logout
-										</a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+		<div id="page-content-wrapper">	
 			<div id="boxSearch">
 				<input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="search">
 			</div>
@@ -173,14 +174,14 @@
 
 					<div class="row">
 						<!-- chart-->
-						<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 							<div class="px-2 pt-3 pb-1 bg-color-black mb-3">
 								<canvas id="myChart" width="400" height="400"></canvas>
 							</div>
 						</div>
 
 						<!-- User Activity-->
-						<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 							<div class="px-2 bg-color-black mb-3">
 								<div class="pt-2">
 									<div>
@@ -326,13 +327,6 @@
 				</p>
 			</footer>
 
-
-			<div class="switch-mode">
-				<div class="mode-switcher">
-					
-					
-				</div>
-			</div>
 
 			<div class="fab">
 				<div class="dropup">
