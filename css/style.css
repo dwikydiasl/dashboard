@@ -93,6 +93,7 @@ body{
 #page-content-wrapper {
   width: 100%;
   position: absolute;
+  padding-top: 60px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -155,7 +156,7 @@ body{
   cursor: pointer;
 }
 #boxSearch {
-  width: 50%;
+  width: 80%;
   padding: 15px ;
   display: none;
   position: fixed;
@@ -405,7 +406,6 @@ body{
     display: none;
   }
   #boxSearch{
-    margin-top: 50px;
     width: 100%;
   }
 }
@@ -420,7 +420,6 @@ body{
   display: none;
 }
 #boxSearch{
-    margin-top: 50px;
     width: 100%;
   }
 }
@@ -432,7 +431,6 @@ body{
     display: none;
   }
   #boxSearch{
-    margin-top: 50px;
     width: 100%;
   }
 }
