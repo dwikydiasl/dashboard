@@ -24,15 +24,30 @@
 
 </head>
 <body>
-		
-	<div id="login">
+
+	<div id="login" class="login">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-md-9 col-lg-9">
-					
+				<div class="col-12 col-sm-12 col-md-9 col-lg-9  bg-color-login">
+					<div class="login-left" align="center">
+						<img src="assets/img/icon-login.svg" class="img-login">
+					</div>
 				</div>
 				<div class="col-12 col-sm-12 col-md-3 col-lg-3">
-					
+					<div class="form-login">
+						<h3><b>Welcome</b></h3>
+						<h3><b>Back !</b></h3>
+						<form>
+							<div class="input-group">
+								<label for="txtFirstName">Username</label>
+								<input type="text" id="txtFirstName" placeholder="First Name" />
+							</div>
+							<div class="input-group">
+								<label for="txtLastName">Password</label>
+								<input type="password" id="txtLastName" placeholder="Last Name" />
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

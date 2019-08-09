@@ -4,6 +4,57 @@ body{
   -webkit-transition: background 0.25s linear;
   -moz-transition: background 0.25s linear;
 }
+/*-- LOGIN --*/
+#login{
+  height: 100vh;
+}
+.bg-color-login{
+  background-color: #313d3f;
+}
+.login-left{
+  padding-top:150px;
+  height: 100vh;
+}
+.img-login{
+  max-height: 450px;
+}
+.form-login{
+  margin-top: 100px;
+}
+.input-group {
+  width:340px;
+  margin: 50px auto;
+  position:relative;
+}
+.form-login input {
+ border: none;
+ border-bottom: 1px solid #888;
+ font-size:20px;
+ width:290px;
+ transition: all .5s;
+}
+.form-login input:focus {
+  outline:none;
+  border-bottom-width:4px;
+  border-color:#68f
+}
+.form-login label {
+  color: #aaa;
+  position:absolute;
+  left:0;
+  top:0;
+  opacity:0;
+  visibility: hidden;
+  transition: all .5s;
+}
+.label-top {
+  visibility: visible;
+  opacity: 1;
+  top: -20px;
+  color: #111;
+}
+
+/*--------*/
 .fa-stream{
 	font-size: 24px;
 	color: #fff;
@@ -105,7 +156,7 @@ body{
 
 .sidebar-nav {
   position: absolute;
-  top: 60px;
+  top: 40px;
   width: 250px;
   margin: 0;
   padding: 0;
